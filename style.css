@@ -1,0 +1,82 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+/*Зроби цей сайт красивим 😉*/
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+/*Зроби цей сайт красивим 😉*/
+header{
+    background-image: url('fon.jpg');
+    color:red;
+    background-repeat:no-repeat;
+   background-size:cover;
+   background-position:center;
+   height: 30%;
+} 
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    background-color: #2ecc71;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient( #ff4e00, #ec9f05);
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu-link:hover{
+    box-shadow: 0 0 20px 5px #ff4e00 ;
+}
+
+.product-container {
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:15px;
+ 
+}
+img {
+   
+    width: 100%;
+
+}
+
+.product-card {
+    flex-wrap: wrap;
+    gap:15px;
+ 
+    background-color: white;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
